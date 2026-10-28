@@ -1,0 +1,113 @@
+/* pengaturan umum */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: georgia, "Times New Roman", 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color:rgb(255, 162, 177);
+    color:black;
+}
+
+header{
+    background-color: rgb(231, 107, 128);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+    background-color: beige;
+}
+
+nav a:hover{
+    color: rgb(254, 165, 180);
+    margin: 0 12px;
+    text-decoration: underline;
+}
+
+main{
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+    color: rgb(211, 66, 112);
+}
+
+main .banner{
+    display: block;
+    align-items:center;
+}
+
+.banner{
+    background-color: bisque;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    background-color: bisque;
+    color: rgb(226, 39, 123);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.gambar{
+    width: 200px;
+}
+.tombol:hover {
+    background-color: rgb(236, 208, 175);
+}
+
+.tulisan-produk{
+    text-align: center;
+}
+
+.daftar-produk{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.produk{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(146, 68, 103, 0.944);
+}
+
+.produk button{
+    background-color: rgb(229, 37, 117);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produk button:hover{
+    background-color: rgb(245, 82, 150);
+}
+
+.tentang, .kontak{
+    background-color: beige;
+    color: rgb(211, 66, 112);
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(231, 107, 128);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
